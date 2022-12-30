@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #5a3500;
+  background-color: #ebe2d9;
+}
+a {
+  text-decoration: none;
+  color: #5a3500;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1128px;
+  width: 100%;
+  margin: auto;
+}
+
+.welcome {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.welcome-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.welcome__title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.welcome__title-hrad {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 116px;
+  color: #5a3500;
+}
+.welcome__left-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  gap: 32px;
+}
+.nav-link {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 0 5px;
+}
+.welcome__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 60px;
+  padding-bottom: 21px;
+}
+.welcome__btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  padding-bottom: 68px;
+}
+.btn {
+  padding: 8px 32px;
+  border: 2px solid #5a3500;
+  border-radius: 2px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  transition: all 0.3s;
+}
+.btn:hover {
+  text-decoration: none;
+  background-color: #5a3500;
+  color: #ebe2d9;
+}
+
+.article {
+  padding: 48px 0;
+}
+.article__title {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  display: block;
+  width: fit-content;
+}
+.article__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.article-col {
+  flex: 1;
+}
+.pt-p {
+}
+.pt-p > .article__paragraph {
+  padding-bottom: 62px;
+  padding-top: 62px;
+}
+.article__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.article__main-col {
+  display: flex;
+  flex-direction: column;
+}
+.article__space-between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 54px 200px;
+}
+.footer__logo {
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.nav {
+}
+.nav-link {
+}
+.footer__copy {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  padding-top: 154px;
+  padding-bottom: 20px;
+  position: relative;
+  overflow-x: hidden;
+  margin-bottom: 182px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title__head {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 116px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.title__arrow {
+  padding: 10px;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #5a3500;
+  width: 517px;
+  bottom: 0;
+  left: 16%;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #5a3500;
+  width: 50vw;
+  bottom: 0;
+  left: 60%;
+}
+.types {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+.types__item {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.types__item-link {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+.txt {
+  padding: 26px 0;
+}
+.txt__head {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-bottom: 26px;
+}
+.txt__p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.txt-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 76px;
+}
+.img__list {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 26px 0;
+}
